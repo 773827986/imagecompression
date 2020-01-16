@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitdd2aca4e4cade872f88cfc445ed74a52
+class ComposerStaticInite64305c03bb69afc9f17bb5b443a024c
 {
     public static $prefixLengthsPsr4 = array (
         'I' => 
@@ -16,15 +16,15 @@ class ComposerStaticInitdd2aca4e4cade872f88cfc445ed74a52
     public static $prefixDirsPsr4 = array (
         'Imgzip\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Imgzip',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitdd2aca4e4cade872f88cfc445ed74a52::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitdd2aca4e4cade872f88cfc445ed74a52::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite64305c03bb69afc9f17bb5b443a024c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite64305c03bb69afc9f17bb5b443a024c::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

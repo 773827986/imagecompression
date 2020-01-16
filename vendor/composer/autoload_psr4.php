@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Imgzip\\' => array($baseDir . '/src/Imgzip'),
+    'Imgzip\\' => array($baseDir . '/src'),
 );
