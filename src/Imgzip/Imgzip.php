@@ -9,7 +9,7 @@ class Img{
        /**
         * 图片压缩
         * @parsam $src 源图
-        * @param float $percent  压缩比例
+        * @param float $percent  压 缩比例
         */
        public function __construct($src, $percent=1)
        {
