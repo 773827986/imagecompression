@@ -16,7 +16,7 @@ class ComposerStaticInit2192b6e5c6552f0e283cdeef6191b97b
     public static $prefixDirsPsr4 = array (
         'Imgzip\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/Imgzip',
         ),
     );
 
