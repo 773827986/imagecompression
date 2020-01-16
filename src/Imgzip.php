@@ -1,7 +1,7 @@
 <?php
 namespace Imgzip;
 
-class Imgzip{
+class Img{
        private $src;
        private $image;
        private $imageinfo;
