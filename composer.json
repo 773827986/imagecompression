@@ -1,0 +1,18 @@
+{
+    "name": "yzcslt.com/Imgzip",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "车志豪",
+            "email": "773827986@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+    "psr-4": {
+            "Imgzip\\": "src/Imgzip"
+        }
+    }
+}
