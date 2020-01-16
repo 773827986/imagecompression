@@ -8,7 +8,7 @@ class Zip{
        private $percent = 0.5;
        /**
         * 图片压缩
-        * @parsam $src 源图666
+        * @parsam $src 源图666qq
         * @param float $percent  压缩比例9999
         */
        public function __construct($src, $percent=1)
