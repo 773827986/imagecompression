@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 namespace Imgzip;
 
 class Img{
@@ -8,7 +8,7 @@ class Img{
        private $percent = 0.5;
        /**
         * 图片压缩
-        * @parsam $src 源图
+        * @parsam $src 源图6
         * @param float $percent  压缩比例
         */
        public function __construct($src, $percent=1)
