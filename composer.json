@@ -8,6 +8,7 @@
             "email": "773827986@qq.com"
         }
     ],
+    "description": "图片压缩无损，图像无损压缩，无损",
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
